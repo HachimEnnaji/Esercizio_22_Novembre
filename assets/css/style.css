@@ -140,16 +140,19 @@ article {
   padding-inline: var(--paddding-size);
 }
 div.image img {
-  height: 200px;
+  box-sizing: border-box;
+  height: 100%;
+  object-fit: cover;
   width: 300px;
   padding: 10px;
+  margin: 0.8em;
 }
 h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 30px;
 }
 p {
-  font-size: 12px;
+  font-size: 28px;
 }
 div.aside-text {
   padding-inline: 0.5em;
