@@ -137,7 +137,8 @@ article {
   display: flex;
   border-radius: 20px;
   background-color: #fbf7e3;
-  padding-inline: var(--paddding-size);
+  padding: 1em;
+  box-sizing: border-box;
 }
 div.image img {
   box-sizing: border-box;
