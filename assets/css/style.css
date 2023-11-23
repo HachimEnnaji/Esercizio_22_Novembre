@@ -103,7 +103,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 878px) {
   article {
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ button {
     max-width: 400px;
     background-color: #fbf7e3;
     margin: 0 auto;
-    padding: var(--paddding-size);
+    padding-block: 30px;
   }
   div.image img {
     max-width: 100%;
